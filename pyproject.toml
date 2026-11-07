@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccalc"
+version = "0.1.0"
+description = "Green-screen terminal calculator with mouse buttons and clipboard copy"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+classifiers = ["Environment :: Console :: Curses", "Topic :: Utilities"]
+
+[project.scripts]
+ccalc = "ccalc:cli"
