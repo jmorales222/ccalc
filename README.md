@@ -5,7 +5,7 @@ and clipboard support. Pure Python, standard library only.
 
 ## Install
 
-    pipx install git+ssh://git@github.com/jmorales222/ccalc.git
+    pipx install git+https://github.com/jmorales222/ccalc.git
 
 or from a checkout: `pip install .`
 
