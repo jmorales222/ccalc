@@ -3,6 +3,8 @@
 A green-screen terminal calculator with a clickable keypad, number-pad typing,
 and clipboard support. Pure Python, standard library only.
 
+![ccalc screenshot](docs/screenshot.png)
+
 ## Install
 
     pipx install git+https://github.com/jmorales222/ccalc.git
