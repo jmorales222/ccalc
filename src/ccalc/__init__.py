@@ -228,7 +228,9 @@ class App:
             bx, by = x0 + 1 + c * CELL_W, yb + r * CELL_H
             bw = span * CELL_W - 1
             if act == ("cmd", "auto"):
-                label = "Auto:" + ("ON" if self.auto else "OFF")
+                label = "Auto:" + ("ON" if self.auto else "OFF") + "  F3"
+            elif act == ("cmd", "copy"):
+                label = "Copy  F2"
             on = act == ("cmd", "auto") and self.auto
             attr = REV | curses.A_BOLD if (on or self.flash == act) else REV
             s.addstr(by, bx, label.center(bw), attr)
