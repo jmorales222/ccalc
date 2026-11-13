@@ -179,6 +179,8 @@ class App:
                 self.pos -= 1
         elif arg == "clear":
             self.buf, self.pos, self.recall = "", 0, None
+            self.ans, self.last = 0, None
+            self.status = "Cleared"
         elif arg == "copy":
             self.do_copy()
         elif arg == "auto":
